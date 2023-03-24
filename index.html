@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script async="" defer="" src="https://accounts.google.com/gsi/client?hl=it"></script>
+  <title>Ferrari Network Back Office</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="left">
+      <div id="signin">
+        <div class="logo">
+          <img src="/img/ferrari-logo-payoff-2023.png" alt="Ferrari Group" />
+        </div>
+        <p class="instructions">Click here for login with @ferrarigroup.net account</p>
+        <div id="g_id_onload"
+          data-client_id="767084569221-dp3k9cl8tkin5u7qpfnam37nk0eqpfcn.apps.googleusercontent.com"
+          data-context="signin"
+          data-ux_mode="popup"
+          data-callback="handleCredentialResponse"
+          data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+          data-type="standard"
+          data-shape="pill"
+          data-theme="outline"
+          data-text="signin_with"
+          data-size="large"
+          data-logo_alignment="left"
+          data-width="400px">
+        </div>
+        <div class="or">
+          <hr class="bar" />
+          <span>OR</span>
+          <hr class="bar" />
+        </div>
+        <p class="instructions">Sign In with username and password</p>
+        <form>
+          <div>
+            <label>Email or username</label>
+            <input type="text" class="text-input" />
+          </div>
+          <div>
+            <label>Password</label>
+            <input type="password" class="text-input" />
+          </div>
+          <button type="submit" class="primary-btn">Sign In</button>
+        </form>
+      </div>
+      <footer id="main-footer">
+        <p>Copyright &copy; 2023-present Ferrari Group</p>
+        <p id="server">prd-webappint02.ferrarigroup.net</p>
+        <!-- <div>
+          <a href="#">terms of use</a> | <a href="#">Privacy Policy</a>
+        </div> -->
+      </footer>
+    </div>
+    <div id="right">
+      <div id="showcase">
+        <div class="showcase-content">
+          <h1 class="showcase-text">
+            The Ferrari Group <strong>Back Office</strong>
+          </h1>
+          <p class="showcase-subtext">
+            Taking care of everything precious, since forever
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
