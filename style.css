@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-weight: 300; */
   background: #EDEDED;
   color: #4B4B4B;
   overflow: hidden;
@@ -131,7 +131,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('/backoffice-templates/img/login-bg.jpg') no-repeat center center / cover;
+  background: url('img/login-bg.jpg') no-repeat center center / cover;
   height: 100vh;
   text-align: center;
 }

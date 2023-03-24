@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <script async="" defer="" src="https://accounts.google.com/gsi/client?hl=it"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fomantic-ui/dist/semantic.min.css">
+  <script src="fomantic-ui/dist/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Ferrari Network Back Office</title>
 </head>
 <body>
@@ -13,7 +16,7 @@
     <div id="left">
       <div id="signin">
         <div class="logo">
-          <img src="/backoffice-templates/img/ferrari-logo-payoff-2023.png" alt="Ferrari Group" />
+          <img src="img/ferrari-logo-payoff-2023.png" alt="Ferrari Group" />
         </div>
         <p class="instructions">Click here for login with @ferrarigroup.net account</p>
         <div id="g_id_onload"
@@ -39,16 +42,16 @@
           <hr class="bar" />
         </div>
         <p class="instructions">Sign In with username and password</p>
-        <form>
-          <div>
-            <label>Email or username</label>
-            <input type="text" class="text-input" />
+        <form class="ui form">
+          <div class="field">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Username">
           </div>
-          <div>
+          <div class="field">
             <label>Password</label>
-            <input type="password" class="text-input" />
+            <input type="password" name="password" placeholder="Password">
           </div>
-          <button type="submit" class="primary-btn">Sign In</button>
+          <button class="ui button fluid ferrari" type="submit">Sign In</button>
         </form>
       </div>
       <footer id="main-footer">
